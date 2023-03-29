@@ -1,0 +1,97 @@
+# Basic
+vim
+git
+yay
+
+# Utilities
+
+### Network
+networkmanager
+
+### Bluetooth
+bluez
+bluez-utils
+blueberry
+
+### Audio
+pipewire
+
+### Other
+gt5ct
+lxappearance
+font-manager
+arch-linux-tweak-tool
+
+# Desktop apps
+
+xorg-server
+xorg-apps
+xorg-xinit
+picom-ibhagwan-git
+bspwm
+sxhkd
+alacritty
+fish
+rofi
+thunar
+nitrogen
+polybar
+sddm
+
+# Apps
+brave-bin
+libreoffice-fresh
+mpv
+vlc
+spotify
+davinci-resolve
+gimp
+inkscape
+blender
+zathura
+neovim
+visual-studio-code-bin
+notepadqq
+virtualbox
+virtualbox-host-modules-arch
+balena-etcher
+anki
+obsidian
+discord
+qbittorrent
+bitwarden
+
+# Ricing
+
+### Themes
+catppuccin-gtk-theme-mocha
+catppuccin-cursors-mocha
+papirus-icon-theme
+papirus-folders-catppuccin-git
+spicetify-cli
+spicetify-themes-git
+betterdiscord-git
+sddm-catppuccin-git
+
+### Fonts
+ttf-cascadia-code
+ttf-hack
+ttf-fira-code
+ttf-roboto
+ttf-ubuntu-font-family
+ttf-roboto-mono
+ttf-mononoki
+ttf-jetbrains-mono
+ttc-iosevka
+
+### Terminal fun
+neofetch
+htop
+bashtop
+cmatrix
+lolcat
+bash-pipes
+cava
+cowfortune
+figlet
+tty-clock
