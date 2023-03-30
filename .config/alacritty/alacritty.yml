@@ -19,3 +19,6 @@ font:
     style: Bold Italic
 
   size: 12
+
+shell:
+  program: /usr/bin/fish
