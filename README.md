@@ -35,6 +35,18 @@
     - **System font**: <code> Cantarella </code> 
     - **Console font**: <code> [Cascadia Code](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/CascadiaCode) </code>
 
+## To-do
+- [ ] Configure polybar
+- [ ] Write own picom config
+- [ ] Tidy up .config files
+- [ ] Customize Spotify
+- [ ] Customize Discord
+- [ ] Customize Anki
+- [ ] Customize Obsidian
+- [ ] Choose system font
+- [ ] Customize terminal
+- [ ] Upgrade Rofi
+
 ## Sxhkd hotkeys
 
 ### Main keybinds
@@ -46,7 +58,8 @@
 | super + f | File manager | 
 | super + t | Text editor |
 
-### Window management
+
+### Window management 
 | Keybind | Action |
 | --- | --- |
 | super + h/j/k/l | Focus left/down/up/right |
@@ -58,6 +71,7 @@
 | super + s | Toggle tiled mode |
 | super + shift + s | Toggle semi-tiled mode |
 | super + o | Toggle floating mode |
+
 
 ### Workspace management
 | Keybind | Action |
