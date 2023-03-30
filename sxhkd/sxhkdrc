@@ -1,0 +1,91 @@
+#
+# Most important apps
+#
+
+# Run alacritty
+super + Return
+	alacritty
+
+# Run rofi
+super + r
+	rofi -show run
+
+# Run brave
+super + b
+	brave
+
+# Run thunar
+super + f
+	thunar
+
+# Run notepadqq
+super + t
+	notepadqq
+
+#
+# BSPWM and sxhkd hotkeys
+#
+
+# Reload sxhkd config:
+super + Escape
+	pkill -USR1 -x sxhkd
+
+# Quit/restart bspwm
+super + alt + {q,r}
+	bspc {quit,wm -r}
+
+#
+# Window management
+#
+
+# Focus prev/next window in history
+super + ctrl + {j,k}
+	bspc wm -h off; \
+	bspc node {older,newer} -f; \
+	bspc wm -h on
+
+# Focus left/down/up/right
+super + {h,j,k,l}
+	bspc node -f {west,south,north,east}
+
+super + {Left,Down,Up,Right}
+	bspc node -f {west,south,north,east}
+
+# Swap windows
+super + shift + {h,j,k,l}
+	bspc node -s {west,south,north,east}
+
+super + shift + {Left,Down,Up,Right}
+	bspc node -s {west,south,north,east}
+
+# Close and kill window
+super + q
+	bspc node -{c,k}
+
+# Toggle max mode
+super + m
+	bspc desktop -l next
+
+# Set the window state
+super + {s,shift + s,o}
+	bspc node -t {tiled,pseudo_tiled,floating}
+
+#
+# Workspace management
+#
+
+# Focus workspace 1-4
+super + {1-4}
+	bspc desktop -f '^{1-4}'
+
+# Move focused window to the given workspace
+super + ctrl + {1-4}
+	bspc node -d '^{1-4}'
+
+# Move focused window to the left/right workspace
+super + ctrl + {Left,Right}
+	bspc node -d {prev,next}
+
+# Focus the next/previous workspace
+super + {shift + Tab, Tab}
+	bspc desktop -f {prev,next}
