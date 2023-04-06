@@ -7,6 +7,7 @@ yay
 
 ### Network
 networkmanager
+nm-connection-editor
 
 ### Bluetooth
 bluez
@@ -15,6 +16,9 @@ blueberry
 
 ### Audio
 pipewire
+wireplumber
+pavucontrol
+helvum
 
 ### Other
 gt5ct
@@ -22,8 +26,13 @@ lxappearance
 font-manager
 arch-linux-tweak-tool
 
-# Desktop apps
+### Lighting
+clight
 
+### Screenshots
+shutter
+
+# Desktop apps
 xorg-server
 xorg-apps
 xorg-xinit
@@ -36,7 +45,6 @@ rofi
 thunar
 nitrogen
 polybar
-sddm
 
 # Apps
 brave-bin
@@ -49,6 +57,8 @@ gimp
 inkscape
 blender
 zathura
+zathura-cb
+zathura-pdf-mupdf
 neovim
 visual-studio-code-bin
 notepadqq
@@ -89,9 +99,8 @@ neofetch
 htop
 bashtop
 cmatrix
-lolcat
 bash-pipes
 cava
 cowfortune
+cowsay
 figlet
-tty-clock

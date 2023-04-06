@@ -1,0 +1,18 @@
+1. Polaczyc sie z internetem za pomoca "iwctl"
+	```device wlan0 show```
+	```device wlan0 scan```
+	```device wlan0 connect <wifi_name>```
+2. Zainstalowac vima, gita
+3. Zainstalowac yay
+	```git clone https://aur.archlinux.org/yay.git```
+	```cd yay```
+	```makepkg -si```
+4. Zainstalowac xorg-server, xorg-apps i xorg-xinit
+5. Zainstalowac bspwm i sxhkd
+6. Stworzyc foldery bspwm i sxhkd w folderze .config
+7. Przekopiowac do tych folderow odpowiednio bspwmrc i sxhkdrc (z moich dotfilesow, albo z jakichkolwiek innych)
+8. Stworzyc plik .xinitrc i wpisac do niego "exec bspwm"
+9. Wlaczyc bluetooth za pomoca
+	```systemctl start bluetooth.service```
+	```systemctl enable bluetooth.service```
+10. Wejsc do srodowiska graficznego za pomoca ```startx```

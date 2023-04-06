@@ -74,16 +74,16 @@ super + {s,shift + s,o}
 # Workspace management
 #
 
-# Focus workspace 1-4
-super + {1-4}
-	bspc desktop -f '^{1-4}'
+# Focus workspace 1-5
+super + {1-5}
+	bspc desktop -f '^{1-5}'
 
 # Move focused window to the given workspace
-super + ctrl + {1-4}
-	bspc node -d '^{1-4}'
+super + alt + {1-5}
+	bspc node -d '^{1-5}'
 
 # Move focused window to the left/right workspace
-super + ctrl + {Left,Right}
+super + alt + {Left,Right}
 	bspc node -d {prev,next}
 
 # Focus the next/previous workspace
