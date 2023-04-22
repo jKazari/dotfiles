@@ -37,19 +37,15 @@
 
 ## To-do
 - [ ] Configure polybar
-- [ ] Write own picom config
 - [ ] Tidy up .config files
 - [ ] Customize Spotify
 - [ ] Customize Discord
 - [ ] Customize Anki
-- [ ] Customize Obsidian
-- [ ] Choose system font
 - [ ] Customize terminal
-- [ ] Upgrade Rofi
 
 ## Sxhkd hotkeys
 
-### Main keybinds
+### Common keybinds
 | Keybind | Action |
 |---|---|
 | super + enter | Terminal |
@@ -66,29 +62,34 @@
 | super + arrows | Focus left/down/up/right |
 | super + shift + h/j/k/l | Swap windows |
 | super + shift + arrows | Swap windows |
+| super + alt + 1-5 | Move focused window to given workspace |
 | super + q | Quit window |
 | super + m | Maximise window |
 | super + s | Toggle tiled mode |
-| super + shift + s | Toggle semi-tiled mode |
-| super + o | Toggle floating mode |
+| super + t | Toggle tiled state |
+| super + s | Toggle between floating and previous state |
+| super + z | Toggle between pseudo tiled and previous state |
 
 
 ### Workspace management
 | Keybind | Action |
 | --- | --- |
-| super + 1-4 | Focus workspace 1-4 |
-| super + ctrl + 1-4 | Move focused window to workspace 1-4 |
-| super + ctrl + left/right | Move focused window to the left/right workspace |
-| super + tab | Cycle through workspaces |
-| super + shift + tab | Cycle through workspaces reversed |
+| super + 1-5 | Focus workspace 1-5 |
+| alt + tab | Focus last used workspace |
+| super + tab | Focus next workspace in order |
+| super + alt + tab | Focus previous workspace in order |
 
-### Functions
+
+### Other
 | Keybind | Action |
 | --- | --- |
+| super + shift + s | Selected area screenshot |
+| super + f | Full screenshot |
+| super + escape | Reload sxhkd |
+| super + shift + r | Reload bspwm |
+| super + shift + q | Quit bspwm |
 | fn + f1 | Mute |
 | fn + f3 | Volume up |
 | fn + f2 | Volume down |
 | fn + f12 | Brightness up |
 | fn + f12 | Brightness down |
-| super + prtscr | Screenshot |
-| super + shift + s | Screen snip |
