@@ -28,7 +28,7 @@
 ## Theme
 - **Palette**: <code> [Catppuccin Mocha](https://github.com/catppuccin) </code> <br>
 - **Icons**: <code> [Papirus Dark + Catppuccin](https://github.com/catppuccin/papirus-folders) </code> <br>
-- **Cursor**: <code> [Catpuccin cursor lavender](https://github.com/catppuccin/cursors) </code> <br>
+- **Cursor**: <code> [Catpuccin cursor mauve](https://github.com/catppuccin/cursors) </code> <br>
 - **Spotify**: <code> [Spicetify + Catppuccin](https://github.com/catppuccin/spicetify) </code> <br>
 - **Discord**: <code> [BetterDiscord + Catppuccin](https://github.com/catppuccin/discord) </code> <br>
 - **Fonts**:
@@ -36,12 +36,15 @@
     - **Console font**: <code> [Cascadia Code](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/CascadiaCode) </code>
 
 ## To-do
-- [ ] Configure polybar
-- [ ] Tidy up .config files
+- [ ] Configure Polybar
+- [ ] Customize Rofi more
+- [ ] Setup a login manager
 - [ ] Customize Spotify
 - [ ] Customize Discord
 - [ ] Customize Anki
 - [ ] Customize terminal
+- [ ] Setup Neovim + LaTeX
+- [ ] Tidy up .config files
 
 ## Sxhkd hotkeys
 
